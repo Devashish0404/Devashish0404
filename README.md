@@ -79,6 +79,12 @@
   <a href="https://linkedin.com/in/devashish-vashishth-37788a333/" target="blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="40" width="50" />
   </a>
+  <a href="mailto:devashishvashishth04@gmail.com" target="blank">
+    <img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Gmail" height="40" width="50" />
+  </a>
+  <a href="https://github.com/Devashish0404" target="blank">
+    <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub" height="40" width="50" />
+  </a>
 </p>
 
 ---
