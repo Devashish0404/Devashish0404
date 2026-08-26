@@ -39,12 +39,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Devashish0404&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devashish0404&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Devashish0404&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devashish0404&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Devashish0404&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Devashish0404&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </p>
 
 ---
@@ -52,7 +52,7 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Devashish0404&theme=radical&no-frame=true&row=2&column=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Devashish0404&theme=radical&no-frame=true&row=2&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -60,9 +60,8 @@
 ### 📈 Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Devashish0404&theme=react-dark&hide_border=true&bg_color=0d1117&color=ff6e4a&line=ff6e4a&point=ffffff" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Devashish0404&theme=react-dark&hide_border=true&bg_color=0d1117&color=ff6e4a&line=ff6e4a&point=ffffff&area=true&area_color=ff6e4a" alt="Activity Graph" />
 </p>
-
 ---
 
 ### 😄 Random Dev Joke
