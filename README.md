@@ -89,9 +89,15 @@
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Devashish0404/Devashish0404/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</p>
+### 🐍 GitHub Contribution Snake
+
+<!-- This section shows a snake animation. It will appear once the GitHub Action has run successfully. -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Devashish0404/Devashish0404/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Devashish0404/Devashish0404/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/Devashish0404/Devashish0404/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 
 ---
 
