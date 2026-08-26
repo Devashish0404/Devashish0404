@@ -2,28 +2,38 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight
-  workflow_dispatch:  # Allows manual trigger
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+# ✅ CRITICAL: Add explicit permissions
+permissions:
+  contents: write  # Allows pushing to output branch
+  actions: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # Updated from v3 to v4
-      
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # ✅ Prevents token issues
+          
       - name: Generate snake animation
         uses: Platane/snk@v3
+        id: snake
         with:
           github_user_name: Devashish0404
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.svg?palette=github-light
-      
+          
       - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v4  # Updated from v3 to v4
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          publish_empty: false  # ✅ Don't push if empty
           commit_message: "Generate snake animation"
+          force_orphan: true  # ✅ Creates clean branch
